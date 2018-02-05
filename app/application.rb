@@ -50,11 +50,11 @@ class Application
 
   # def handle_cart
   #   if @@cart.empty?
-  #     resp.write "Your cart is empty."
+  #     "Your cart is empty."
   #   else
-  #     resp.write "Your cart includes the following items:\n"
+  #     "Your cart includes the following items:\n"
   #     @@cart.each do |item|
-  #       resp.write "#{item}\n"
+  #       "#{item}\n"
   #     end
   #   end
   # end
@@ -62,9 +62,9 @@ class Application
   # def add_item_to_cart(item_to_add)
   #   if @@items.include?(item_to_add)
   #     @@cart << item_to_add
-  #     resp.write "We've added #{item} to your cart."
+  #     "We've added #{item} to your cart."
   #   else
-  #     resp.write "We don't have that item."
+  #     "We don't have that item."
   #   end
   # end
 end
