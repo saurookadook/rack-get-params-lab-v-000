@@ -49,6 +49,7 @@ class Application
   end
 
   # def handle_cart
+      response = []
   #   if @@cart.empty?
   #     "Your cart is empty."
   #   else
@@ -57,6 +58,7 @@ class Application
   #       "#{item}\n"
   #     end
   #   end
+      return 
   # end
 
   # def add_item_to_cart(item_to_add)
